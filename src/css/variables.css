@@ -1,20 +1,19 @@
 :root{
-    --cor-fundo-azul : rgba(22, 20, 97, 1);
+    --cor-nav : rgb(6, 11, 17);
+    --cor-fundo: rgba(255, 255, 255, 1);
     --cor-objetos: rgba(91, 139, 200, 1);
     --cor-circulos: rgba(62, 195, 217, 1);
-    --cor-branca: rgba(255, 255, 255, 1);
-    --cor-font-nav: rgba(101, 199, 203, 1);
-    --cor-font-responsivo: rgba(0, 0, 0, 1);
-    --cor-hambuguer: rgba(0, 0, 0, 1);
+    --cor-font:rgba(255, 255, 255, 1);
+
 }
 
 :root{
-    --fonte-primaria: 'Nunito', sans-serif;
-    --fonte-segundaria: 'Poppins', sans-serif;
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-segundaria: 'Nunito', sans-serif;
     --fonte-extra-grande: 6.5rem;
     --fonte-grande: 4rem;
     --fonte-medio: 2.8rem;
-    --fonte-normal: 2.2rem;
+    --fonte-normal: 1.6rem;
     --fonte-pequena: 2rem;
 }
 

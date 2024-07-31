@@ -1,0 +1,37 @@
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+
+img{
+    width: 200px;
+    
+}
+.navbar-main{
+    padding: 10px 0;
+    width: 100%;
+    background: var(--cor-nav);
+    
+}
+
+li.nav-item{
+    padding: 5px 12px;
+    font-size: 15px;
+    font-weight: 100;
+}
+a.nav-link{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: ease-in-out 0.3s;
+}
+
+a.nav-link:hover{
+    background-color: var(--cor-objetos);
+    color: var(--cor-branca);
+    border-radius: 10px;
+    
+}
+
+
+
