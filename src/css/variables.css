@@ -1,8 +1,7 @@
 :root{
-    --cor-nav : rgb(6, 11, 17);
+    --cor-nav : rgba(6, 11, 17, 1);
     --cor-fundo: rgba(255, 255, 255, 1);
-    --cor-objetos: rgba(91, 139, 200, 1);
-    --cor-circulos: rgba(62, 195, 217, 1);
+    --cor-houver: rgba(0, 157, 234, 1);
     --cor-font:rgba(255, 255, 255, 1);
 
 }

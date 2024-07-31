@@ -27,11 +27,22 @@ a.nav-link{
 }
 
 a.nav-link:hover{
-    background-color: var(--cor-objetos);
-    color: var(--cor-branca);
-    border-radius: 10px;
-    
+    color: var(--cor-houver);    
 }
 
+.nav-btn a{
+    background-color: var(--cor-houver);
+    color: var(--cor-font);
+    padding: 10px 30px;
+    transition: .4s ease;
+    font-weight: 500;
+    border-radius: 30px;
+    text-decoration: none
+}
+
+.nav-btn a:hover{
+    background-color: #fff;
+    color: var(--cor-nav);
+}
 
 
