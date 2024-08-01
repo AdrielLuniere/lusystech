@@ -11,6 +11,7 @@ img{
     padding: 10px 0;
     width: 100%;
     background: var(--cor-nav);
+    /* position: fixed;     */
     
 }
 
@@ -46,3 +47,35 @@ a.nav-link:hover{
 }
 
 
+.banner-img img{
+    width: 500px;
+}
+
+.banner-sec{
+    background: url(../img/b5690-bg-2.jpg);
+    background-size: 100% 95%; 
+    background-repeat: no-repeat;
+    padding: 80px 0 150px;
+
+}
+
+.banner-cont h2{
+    color: #fff;
+    font-size: 56px;
+
+}
+
+.banner-cont p{
+    color: #fff;
+}
+
+.titulo-head h3{
+    margin: 20px 0;
+    font-size: var(--fonte-grande);
+    font-weight: bolder;
+    color: var(--cor-nav);
+}
+
+.sobre-texto p{
+    text-align: justify;
+}
