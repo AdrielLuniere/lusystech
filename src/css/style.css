@@ -22,7 +22,7 @@ li.nav-item{
 }
 a.nav-link{
     color: #fff;
-    font-size: 16px;
+    font-size: var(--fonte-normal);
     font-weight: 500;
     transition: ease-in-out 0.3s;
 }
@@ -48,7 +48,7 @@ a.nav-link:hover{
 
 
 .banner-img img{
-    width: 500px;
+    width: 100%;
 }
 
 .banner-sec{
@@ -78,4 +78,9 @@ a.nav-link:hover{
 
 .sobre-texto p{
     text-align: justify;
+}
+
+.sobre-img img{
+    width: 100%;
+    padding: 10px 20px 55px;
 }
