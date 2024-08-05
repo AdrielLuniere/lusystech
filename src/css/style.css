@@ -103,12 +103,13 @@ a.nav-link:hover{
 
 .col-md-4{
     text-align: center;
+    color: var(--cor-fundo);
     
 }
 
 .col-md-4:hover{
-    background: var(--cor-nav);
-    color: #fff;
+    background: var(--cor-fundo);
+    color: var(--cor-nav);
     border-radius: 15px;
     transition: .3s ease-in-out;
     padding: 0 10px;
@@ -120,5 +121,38 @@ a.nav-link:hover{
 
 .col-md-4 p{
     font-size: var(--fonte-pequena);
+    align-items: center;
+    /* justify-items: center; */
+    
+    
 
+}
+
+.fa-solid.fa-mobile-screen-button{
+    font-size: 45px;
+   line-height: 65px;
+}
+
+.fa-solid.fa-cloud-arrow-down{
+    font-size: 45px;
+   line-height: 65px;
+}
+
+.fa-solid.fa-building-shield{
+    font-size: 45px;
+   line-height: 65px;
+}
+
+.fa-solid.fa-gears{
+    font-size: 45px;
+   line-height: 65px;
+}
+
+.fa-solid.fa-chart-line{
+    font-size: 45px;
+    line-height: 65px;
+}
+.features{
+    background-color: var(--cor-nav);
+    position: relative;
 }
