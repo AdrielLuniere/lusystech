@@ -4,9 +4,17 @@
 }
 
 img{
-    width: 200px;
-    
+    width: 200px;    
 }
+
+/* .navbar-toggler.collapsed{
+    background-color:blue;
+} 
+
+.navbar-toggler{
+    background-color: blueviolet;
+} */
+
 .navbar-main{
     padding: 10px 0;
     width: 100%;
@@ -32,6 +40,7 @@ a.nav-link:hover{
 }
 
 .nav-btn a{
+    font-size: var(--fonte-normal);
     background-color: var(--cor-houver);
     color: var(--cor-font);
     padding: 10px 30px;
@@ -48,12 +57,12 @@ a.nav-link:hover{
 
 
 .banner-img img{
-    width: 100%;
+    width: 75%;
 }
 
 .banner-sec{
     background: url(../img/b5690-bg-2.jpg);
-    background-size: 100% 95%; 
+    background-size: 100% 90%; 
     background-repeat: no-repeat;
     padding: 80px 0 150px;
 
@@ -82,5 +91,34 @@ a.nav-link:hover{
 
 .sobre-img img{
     width: 100%;
+    height: 400px;
+    object-fit: contain;
     padding: 10px 20px 55px;
+}
+
+.fa-duotone.fa-solid.fa-laptop-code{
+   font-size: 45px;
+   line-height: 65px;
+}
+
+.col-md-4{
+    text-align: center;
+    
+}
+
+.col-md-4:hover{
+    background: var(--cor-nav);
+    color: #fff;
+    border-radius: 15px;
+    transition: .3s ease-in-out;
+    padding: 0 10px;
+}
+
+.col-md-4 h4{
+    font-size: var(--fonte-medio);
+}
+
+.col-md-4 p{
+    font-size: var(--fonte-pequena);
+
 }

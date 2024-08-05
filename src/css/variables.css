@@ -1,8 +1,9 @@
 :root{
-    --cor-nav : rgba(10, 18, 27, 1);
+    --cor-nav: rgba(10, 18, 27, 1);
     --cor-fundo: rgba(255, 255, 255, 1);
     --cor-houver: rgba(0, 157, 234, 1);
     --cor-font:rgba(255, 255, 255, 1);
+    --cor-servico:rgba(38, 42, 53 ,1 );
 
 }
 
@@ -11,9 +12,9 @@
     --fonte-segundaria: 'Nunito', sans-serif;
     --fonte-extra-grande: 6.5rem;
     --fonte-grande: 4rem;
-    --fonte-medio: 2.8rem;
+    --fonte-medio: 2rem;
     --fonte-normal: 1.6rem;
-    --fonte-pequena: 2rem;
+    --fonte-pequena: 1.4rem;
 }
 
 :root{
