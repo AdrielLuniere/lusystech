@@ -189,6 +189,23 @@ a.nav-link:hover{
     font-weight: normal;
 }
 
+.title-head.text-center h4{
+    padding: 0 0 20px 0;
+}
+.title-head h1{
+    font-size: var(--fonte-grande);
+    color: var(--cor-nav);
+    padding: 0 0 15px 0;
+}
+.estrutura-box{
+    padding: 2%;
+}
+
+.estrutura-img img{
+    width: 1000px;
+ 
+ }
+
 .footer{
     padding: 20px 0 20px;
     background-color: var(--cor-nav);
@@ -246,4 +263,20 @@ a.nav-link:hover{
     color: var(--cor-fundo);
     padding: 7px;
     margin: 0;
+}
+
+@media (max-width: 900px) {
+
+    .estrutura-img img{
+        width: 550px;
+     
+     }
+}
+
+@media (max-width: 555px) {
+
+    .estrutura-img img{
+        width: 100%;
+     
+     }
 }
