@@ -10,11 +10,11 @@
 :root{
     --fonte-primaria: 'Poppins', sans-serif;
     --fonte-segundaria: 'Nunito', sans-serif;
-    --fonte-extra-grande: 6.5rem;
-    --fonte-grande: 4rem;
+    --fonte-extra-grande: 4rem;
+    --fonte-grande: 3.6rem;
     --fonte-medio: 2rem;
     --fonte-normal: 1.6rem;
-    --fonte-pequena: 1.4rem;
+    --fonte-pequena: 1.2rem;
 }
 
 :root{

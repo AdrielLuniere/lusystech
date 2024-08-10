@@ -12,7 +12,8 @@
     
 
     <title>Lusystech</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </head>
@@ -20,11 +21,11 @@
     
     <!-- Nav-->
      <section class="navbar-main">
-        <nav class="navbar navbar-expand-lg p-0">
+        <nav class="navbar navbar-expand-lg p-0   border-body" data-bs-theme="dark">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="src/img/logo.jpg" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler btn-close-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -45,7 +46,7 @@
                   </li>
                 </ul>
                 <div class="nav-btn">
-                  <a href="">Entre em contato</a>
+                  <a href="#entreemcontato">Entre em contato</a>
                 </div>
               </div>
             </div>
@@ -60,7 +61,7 @@
               <h2>We Manage <br> Your Business</h2>
               <p>Somos especialista em manutenção em hardware e no desenvolvimento de projetos tecnologico e inovação para empresas. Entre já em contato e conte-nos mais sobre seus objetivos!.</p>
               <div class="nav-btn mt-5">
-                <a href="">Entre em contato</a>
+                <a href="#entreemcontato">Entre em contato</a>
               </div>
             </div>
           </div>
@@ -347,6 +348,59 @@
           </div>
         </div>
       </section>
+
+      <section class="contact" id="entreemcontato">
+        <div class="content">
+          <h2>Entre em contato</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aut provident beatae.</p>
+        </div>
+        <div class="containe2">
+          <div class="contactInfo">
+            <div class="box">
+              <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div class="text">
+                <h3>Endereço</h3>
+                <p>RUA DO CANARIO n37, <br>Bairro Duquesa1 -Santa Luzia</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="text">
+                <h3>E-mail</h3>
+                <p>adrielbinda@gmail.com</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="text">
+                <h3>Telefone</h3>
+                <p>+55 (31) 99593-4336</p>
+              </div>
+            </div>
+          </div>
+          <div class="contactForm">
+            <form>
+              <h2>Enviar Menssagem</h2>
+              <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Nome Completo</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>E-mail</span>
+              </div>
+              <div class="inputBox">
+                <textarea required="required"></textarea>
+                <span>Digite sua mensagem...</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="" value="Send">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
 
       <section class="footer">
         <div class="container">
